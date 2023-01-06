@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>tic-tac-toe</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            #statusBox {
+                width: 60vw;
+                text-align: center;
+                font-size: 5em;
+                position: fixed;
+                top: 8vh;
+                left: 20vw;
+            }
+            table {
+                background-color: gray;
+                border-collapse: collapse;
+                margin: 20vh auto;
+                margin-bottom: 0px;
+            }
+            td {
+                width: 200px;
+                height: 200px;
+                border: 2px solid black;
+                font-size: 10em;
+                text-align: center;
+                font-weight: bold;
+             }
+             #selectSymbol {
+                width: 500px;
+                margin: 50px auto;
+                text-align: center;
+                font-size: 5em;
+             }
+        </style>
+    <head>
+    <body>
+        <div id="statusBox">tic-tac-toe</div>
+        <table>
+            <tr>
+                <td id="0"></td>
+                <td id="1"></td>
+                <td id="2"></td>
+            </tr>
+            <tr>
+                <td id="3"></td>
+                <td id="4"></td>
+                <td id="5"></td>
+            </tr>
+            <tr>
+                <td id="6"></td>
+                <td id="7"></td>
+                <td id="8"></td>
+            </tr>
+        </table>
+        <div id="selectSymbol">
+        <input type="radio" name="selectSymbol" id="X" checked>
+        <label for="X">X</label>
+        <input type="radio" name="selectSymbol" id="O">
+        <label for="O">O</label>
+        <script src="tic-tac-toe.js"></script>
+        </div>
+    </body>
+</html>
